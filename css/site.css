@@ -1,0 +1,54 @@
+body {
+  font-size: 16px;
+}
+
+#content {
+  background: white;
+}
+
+#challenge-description {
+  background: silver;
+}
+
+#global-menu a {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.follow {
+}
+
+/* global modules styles */
+.module { padding: 8px; }
+.box.module { padding: 16px; }
+.module h3 { margin-bottom: 16px; }
+.module h4 { margin-bottom: 8px; }
+
+
+.follow .button {
+  font-weight: bold;
+  border: 3px white;
+  border-color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+}
+
+.media.big { /* don't forget to add .clearfix to .media */
+  margin-bottom: 16px;
+}
+.small.media {
+  margin-bottom: 8px;
+}
+
+.media img {
+  float: left;
+  height: 32px;
+  width: 32px;
+  border: 1px solid white;
+  -moz-box-shadow: 0 0 3px #505050;
+  -webkit-box-shadow: 0 0 3px #505050;
+  box-shadow: 0 0 3px #505050;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
