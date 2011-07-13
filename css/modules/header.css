@@ -1,0 +1,42 @@
+h1 {
+  height: 110px;
+}
+
+h1 a {
+  display: block;
+  height: 100%;
+}
+
+/* nav */
+#global-menu {
+  padding: 0;
+}
+#global-menu a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px;
+}
+
+#global-menu li {
+  margin-right: 3px;
+}
+
+/* tagline */
+#tag-line {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  text-shadow: #000 1px 1px 2px;
+}
+#challenge-description {
+  min-height: 235px;
+}
+
+.ie6 #challenge-description { 
+  height: 235px;
+}
+
+
+header .follow .button {
+  font-size: 1.2em;
+}

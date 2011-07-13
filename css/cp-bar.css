@@ -1,0 +1,28 @@
+/* authentication */
+#auth { font-size: .8em; position: relative; }
+#auth a {
+  display: block;
+  height: 100%;
+  padding: 6px 8px;
+  text-transform: uppercase;
+  background: #4b4b4b;
+  color: silver;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#auth .first { margin-right: 1px; }
+
+#auth a:hover, #auth a:focus {
+  color: white;
+}
+
+#cp-flag {
+  position: absolute;
+  right: -27px;
+  top: 0;
+}
+#cp-flag a {
+  background: transparent;
+  padding: 0;
+}

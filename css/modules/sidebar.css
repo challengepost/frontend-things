@@ -1,0 +1,12 @@
+/* followers */
+#followers img {
+  height: 24px;
+  width: 24px;
+  border: 1px solid white;
+  -moz-box-shadow: 0 0 3px #505050;
+  -webkit-box-shadow: 0 0 3px #505050;
+  box-shadow: 0 0 3px #505050;
+  display: inline-block;
+  margin-right: 9px;
+  margin-bottom: 9px;
+}

@@ -1,0 +1,53 @@
+body {
+  background: url(http://mtaappquest.s3.amazonaws.com/bkgd.gif) top left repeat-x #DBDBDB;
+}
+
+h1 {
+  background: url(http://mtaappquest.s3.amazonaws.com/MTA_app_quest.png) left 16px no-repeat;
+}
+
+/* nav */
+#global-menu a {
+  color: white;
+  background: #ABABAB;
+
+  background-color: #ABABAB;
+  background-image: -moz-linear-gradient(top, #ababab, #7a7a7a);
+  background-image: -ms-linear-gradient(top, #ababab, #7a7a7a);
+  background-image: -o-linear-gradient(top, #ababab, #7a7a7a);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ababab), to(#7a7a7a));
+  background-image: -webkit-linear-gradient(top, #ababab, #7a7a7a);
+  background-image: linear-gradient(top, #ababab, #7a7a7a);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ababab', EndColorStr='#7a7a7a');
+}
+
+#global-menu a:hover, #global-menu a:focus {
+  background-color: #2C8EDF;
+  background-image: -moz-linear-gradient(top, #2C8EDF, #005DAA);
+  background-image: -ms-linear-gradient(top, #2C8EDF, #005DAA);
+  background-image: -o-linear-gradient(top, #2C8EDF, #005DAA);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2C8EDF), to(#005DAA));
+  background-image: -webkit-linear-gradient(top, #2C8EDF, #005DAA);
+  background-image: linear-gradient(top, #2C8EDF, #005DAA);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#2C8EDF', EndColorStr='#005DAA');
+}
+
+#global-menu .current a, #global-menu .current a {
+  background-color: #3D3D3D;
+  background-image: none;
+  filter: none;
+  color: #54B2FF;
+}
+
+/* tagline */
+#challenge-description {
+  background: url(http://mtaappquest.s3.amazonaws.com/MTA-icons-full.png) top right no-repeat; 
+}
+
+#tag-line, h1, h2, h3 {
+  font-family: Oswald, sans-serif;
+}
+
+#tag-line {
+  color: white;
+}
