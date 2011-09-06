@@ -12,7 +12,7 @@
   <!-- generic -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/grid12.css">
 
   <!-- site specific -->
   <link rel="stylesheet" href="css/site.css">
@@ -31,7 +31,7 @@
 </head>
 <body>
 
-  <div id="page" class="centered-block 16-cols">
+  <div id="page" class="centered-block 12-cols clearfix">
     <div id="cp-bar" class="clearfix">
       <ul class="right clearfix" id="auth">
         <li class="left first"><a href="#login">Log in</a></li>
@@ -42,16 +42,16 @@
 
     <header>
       <div id="header-top" class="clearfix">
-        <h1 id="challenge-title" class="25 left"><a href="/" class="ir">MTA's APP Quest Developers Challenge</a></h1>
+        <h1 id="challenge-title" class=""><a href="/" class="ir">MTA's APP Quest Developers Challenge</a></h1>
 
-        <div class="follow 5 left">
+        <div class="follow">
           <form action="#">
             <input type="submit" value="follow"><span>152</span>
           </form>
         </div>
       </div>
 
-      <div id="header-modules" role="main">
+      <div id="header-modules" role="main" class="modules-ares">
 
         <nav id="global-menu" class="module header">
           <ul class="clearfix">
@@ -61,14 +61,14 @@
           </ul>
         </nav>
 
-        <div id="challenge-description" class="module header box clearfix">
-          <p id="tag-line" class="11 mb-2">
+        <div id="challenge-description" class="module header clearfix">
+          <p id="tag-line" class="mb-2 8">
             The MTA is challenging software developers to use 
             MTA data to create new apps that improve the 
             transit experience of its 8.5 million daily riders.
           </p>
 
-          <div class="follow cleft">
+          <div class="follow cleft 8">
             <form action="#">
               <input type="submit" value="Follow this Challenge" class="follow-button button red">
             </form>
@@ -81,8 +81,8 @@
     </header>
 
 
-      <div id="content" class="clearfix box">
-        <div id="main-content" class="20 col">
+      <div id="content" class="clearfix">
+        <div id="main-content" class="modules-area 8 brd-r-3">
 
           <div id="about-the-challenge" class="module main">
             <h3>About this Challenge</h3>
@@ -102,9 +102,9 @@
             <h3>Prizes</h3>
             <div class="prize-list">
 
-              <div class="prize-line clearfix mb-1">
+              <div class="prize-line clearfix">
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Grand Prize</h4>
                   <ul class="reg">
@@ -116,7 +116,7 @@
                   </ul>
                 </div>
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Honorable Mention (5)</h4>
                   <ul class="reg">
@@ -130,7 +130,7 @@
 
               <div class="prize-line clearfix mb-1">
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Second Prize</h4>
                   <ul class="reg">
@@ -142,7 +142,7 @@
                   </ul>
                 </div>
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Popular Choice Award Grand Prize</h4>
                   <ul class="reg">
@@ -156,7 +156,7 @@
 
               <div class="prize-line clearfix mb-1">
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Third Prize</h4>
                   <ul class="reg">
@@ -167,7 +167,7 @@
                   </ul>
                 </div>
 
-                <div class="prize half col last">
+                <div class="prize">
                   <div class="ico"></div>
                   <h4>Popular Choice Award Second Prize</h4>
                   <ul class="reg">
@@ -187,7 +187,7 @@
             <h3>Important Dates</h3>
             
             <ul class="clearfix">
-              <li class="timespan passed 4 col">
+              <li class="timespan passed">
                 <h5>Submission Period</h5>
                 <p class="from date">
                   <span class="month">jul</span>
@@ -202,7 +202,7 @@
                 </p>
               </li>
 
-              <li class="timespan current 4 col">
+              <li class="timespan current">
                 <h5>Judging</h5>
                 <p class="from date">
                   <span class="month">oct</span>
@@ -217,7 +217,7 @@
                 </p>
               </li>
 
-              <li class="timespan coming 4 col">
+              <li class="timespan coming">
                 <h5>Public Voting</h5>
                 <p class="from date">
                   <span class="month">oct</span>
@@ -232,7 +232,7 @@
                 </p>
               </li>
 
-              <li class="timespan coming 4 col">
+              <li class="timespan coming">
                 <h5>Winners Announced</h5>
                 <p class="from date">
                   <span class="month">nov</span>
@@ -264,7 +264,7 @@
           </div>
           
           <div id="judging" class="module main">
-            <div id="judges" class="half col last">
+            <div id="judges" class="">
               <h3>Judges</h3>
               <ul>
                 <li class="small media clearfix">
@@ -323,7 +323,7 @@
               </ul>
             </div>
             
-            <div id="criterias" class="half col last">
+            <div id="criterias" class="">
               <h3>Judging criteria</h3>
 
               <ul>
@@ -346,7 +346,7 @@
 
         </div>                
 
-        <div id="sidebar" class="8 col">
+        <div id="sidebar" class="modules-area 4">
 
           <div id="followers" class="module sidebar">
             <h3>Recent followers</h3>
@@ -399,16 +399,16 @@
             <h3>Share</h3>
 
             <ul class="clearfix"><!-- rewite this -->
-              <li class="col">
+              <li class="">
                 <iframe src="http://platform0.twitter.com/widgets/tweet_button.html?_=1310449652543&amp;count=vertical&amp;counturl=http%3A%2F%2Fmtaappquest.com%2F&amp;id=twitter_tweet_button_0&amp;lang=en&amp;original_referer=http%3A%2F%2Fmtaappquest.com%2F&amp;text=I%20support%20the%20MTA%20App%20Quest!&amp;url=http%3A%2F%2Fmtaappquest.com%2F&amp;via=ChallengePost" allowtransparency="true" frameborder="0" scrolling="no" class="twitter-share-button twitter-count-vertical" style="width: 55px; height: 62px; " title="Twitter For Websites: Tweet Button"></iframe>
               </li>
-              <li class="col">
+              <li class="">
                 <fb:like href="http://mtaappquest.com/" send="false" layout="box_count" width="49" show_faces="false" font="" class=" fb_edge_widget_with_comment fb_iframe_widget">
                   <iframe id="f284c75fb" name="f82513938" scrolling="no" style="border-width: initial; border-color: initial; overflow-x: hidden; overflow-y: hidden; height: 60px; width: 55px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; " title="Like this content on Facebook." class="fb_ltr" src="http://www.facebook.com/plugins/like.php?api_key=115745995110194&amp;channel_url=http%3A%2F%2Fstatic.ak.fbcdn.net%2Fconnect%2Fxd_proxy.php%3Fversion%3D3%23cb%3Df332e08dd%26origin%3Dhttp%253A%252F%252Fmtaappquest.com%252Ff93e19054%26relation%3Dparent.parent%26transport%3Dpostmessage&amp;href=http%3A%2F%2Fmtaappquest.com%2F&amp;layout=box_count&amp;locale=en_US&amp;node_type=link&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=55"></iframe>
                 </fb:like>
               </li>
 
-              <li class="col">
+              <li class="">
                 <a href="#/share_emails">Email</a>
               </li>
             </ul>
@@ -416,7 +416,7 @@
 
           <div id="latest-discussions" class="module sidebar">
             <h3>Latest discussions</h3>
-            
+
             <p class="media">
               <img src="http://www.gravatar.com/avatar/f302fde4cb63091cc0781eaffdee1575.jpeg">
               <h5><a href="#forum">MTA DATA Questions?</a></h5>
@@ -431,10 +431,10 @@
     </div>
   </div>
 
-  <footer class="box">
-    <div id="footer-modules" class="centered-block 30 clearfix">
+  <footer class="modules-area">
+    <div id="footer-modules" class="centered-block clearfix">
 
-    <div id="more-info" class="module footer 6 col">
+    <div id="more-info" class="module footer">
       <h3>More information</h3>
 
       <ul>
@@ -446,7 +446,7 @@
       </ul>
     </div>
     
-    <div id="created-by" class="module footer 16 col">
+    <div id="created-by" class="module footer">
       <h3>Created by</h3>
       <p>
         <img src="http://mtaappquest.s3.amazonaws.com/MTA-logo-white.png"><br>
@@ -454,7 +454,7 @@
       </p>
     </div>
     
-    <div id="about-challengepost" class="module 6 col last">
+    <div id="about-challengepost" class="module">
       <h3>About ChallengePost</h3>
       <p>
         <img src="http://mtaappquest.s3.amazonaws.com/MTA-logo-white.png"><br>
@@ -466,7 +466,7 @@
       </p>
     </div>
 
-    <p id="challengepost-legal" class="centered-block 30 cleft">
+    <p id="challengepost-legal" class="centered-block">
       © <a href="#cp.com">ChallengePost Inc.</a> |
       <a href="#cp.com/privacy">Privacy Policy</a> |
       <a href="#cp.com/terms">Terms and Conditions</a>
