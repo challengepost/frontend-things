@@ -16,7 +16,8 @@
 }
 
 /* global modules styles */
-.module { padding: 8px; }
+/*.modules-area { padding: 8px }*/
+.module { padding: 2I2px; }
 .box.module { padding: 16px; }
 .module h3 { margin-bottom: 16px; }
 .module h4 { margin-bottom: 8px; }
@@ -41,10 +42,13 @@
   float: left;
   height: 32px;
   width: 32px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.halo, .media img {
   border: 1px solid white;
   -moz-box-shadow: 0 0 3px #505050;
   -webkit-box-shadow: 0 0 3px #505050;
   box-shadow: 0 0 3px #505050;
-  margin-right: 16px;
-  margin-bottom: 16px;
 }

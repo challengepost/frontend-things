@@ -100,7 +100,6 @@
 .mt-9 { margin-top: 144px; }
 .mt-10 { margin-top: 160px; }
 
-/* awesome buttons */
 
 /* the awesome size gets set here. Feel free to add new sizes, like .button.small or .small.large */
 .button { padding: 6px 10px 5px; }
@@ -151,8 +150,6 @@
   /* IE luv */
   zoom: 1;
 
-  /* disable text selection (Firefox only) */
-  -moz-user-select: none;
 }
 
 /* OPERA only
@@ -164,12 +161,9 @@
 }
 
 /* hide selection background color */
-.button::selection {
-  background: transparent;
-}
 
 .button::-moz-focus-inner {
-  border: none; /* remove dotted lines for buttons */
+
 }
 .button:focus,
 .button:hover {
